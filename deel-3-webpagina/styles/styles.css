@@ -1,1 +1,153 @@
-/*Schrijf hier jouw css*/
+/*////// Global Styles //////*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #F2F3D9;
+    align-content: center;
+}
+
+
+
+/*////// Typography //////*/
+
+
+body {
+    font-family: Arial, Sans serif;
+}
+
+h1 {
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+ul {
+    color: #FFFFFF;
+}
+
+h2 h3 {
+    text-align: center;
+    align-self: flex-end;
+}
+
+.article p {
+    text-align: center;
+    font-weight: lighter;
+    line-height: 20px;
+}
+
+
+
+/*////// Navigation bar //////*/
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 70px;
+    justify-content: space-between;
+    background-color: black;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    flex-basis: 500px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin: 0 40px;
+}
+
+
+h1 {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin: 0 40px;
+}
+
+.nav h1 {
+    display: flex;
+}
+
+
+
+/*////// Header //////*/
+
+
+.header-section {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 30px 40px;
+}
+
+
+
+/*////// Main //////*/
+
+
+main {
+    display: flex;
+    flex-basis: 400px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 0 40px;
+}
+
+.article {
+    display: flex;
+    max-width: 280px;
+    background-color: #C16E70;
+    height: 350px;
+    align-items: flex-end;
+    flex-shrink: 1;
+    border-radius: 5px;
+    justify-content: space-around;
+}
+
+.article p {
+    align-items: flex-end;
+    justify-content: center;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
